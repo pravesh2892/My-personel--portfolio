@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzqfDqijVQXQ-uijkbKcIssrp0LMvgrq8-MA&usqp=CAU" /> -->
+      
+
+    <title>Personel portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/image/download.png">
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <!-- header design -->
+    <header class="header">
+      <a href="#" class="logo">Portfo<span>lio</span></a>
+      <i class='bx bx-menu' id="menu-icon"></i>
+
+      <navbar class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </navbar>
+    </header>
+
+    <!-- Home section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, it's Me</h3>
+        <h1>Pravesh Meena</h1>
+        <h3>And I'am a <span class="multiple-text"></span></h3>
+        <p>
+          I am a passionate programmer with a thirst for knowledge and currently learning Full Stack Development from Newton School. Truly enjoys solving problems and finding new ways to have fun while doing so. My hope for the future is to become a capable and competent Software Developer/Programmer.
+        </p>
+        <div class="social-media">
+          <a href="https://leetcode.com/Pravesh2892/" target="_blank"
+            ><i class="bx bx-code-alt"></i
+          ></a>
+          <a href="https://twitter.com/Pravesh2892" target="_blank"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/pravesh_me123/" target="_blank"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/pravesh-meena-042b5210a/"
+            target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/pravesh2892" target="_blank"
+            ><i class="bx bxl-git"></i
+          ></a>
+        </div>
+        <a href="https://drive.google.com/file/d/1oPNEa6MeX7RIoZ-P_xqKKSclmg13T9sL/view?usp=sharing"  target="_blank" class="btn">Download CV</a>
+      </div>
+      <div class="home-image">
+        <img src="image/pravesh-about.png" />
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about" id="about">
+      <div class="about-content">
+        <h2 class="heading1">About <span>Me</span></h2>
+        <h3>Full-Stack Developer!</h3>
+        <p>
+          Enthusiastic engineering graduate with knowledge in frontend development . Seeking a challenging position in an organization to expand and utilize my skills and knowledge for the growth of the organization as well as myself
+        </p>
+        <div class="tab-title">
+          <p class="tab-link active-link" onclick="openTab('education')">Education</p>
+          <p class="tab-link"  onclick="openTab('experience')">Experience</p>
+          <p class="tab-link"  onclick="openTab('skills1')">Skills</p>
+        </div>
+
+        <div class="tab-content active-tab" id="education">
+          <ul>
+            <li><span>2017</span></br>Bachelor of Engineering-TIT College Bhopal</li>
+            <li><span>2023</span></br> Full stack web developer-Newton School</li>
+           
+          </ul>
+        </div>
+        <div class="tab-content" id="experience">
+          <ul>
+            <!-- <li><span>UI/UX</span></br>Designing web interface</li>
+            <li><span>Web development</span></br>Web application development</li> -->
+           
+          </ul>
+        </div>
+
+        <div class="tab-content" id="skills1">
+          <ul>
+            <li><span>UI/UX</span></br>Designing web in</li>
+            <li><span>Web development</span></br>Web application development</li>
+           
+          </ul>
+        </div>
+        <!-- <a href="" class="btn">Read More</a> -->
+      </div>
+      <div class="about-image">
+        <img src="image/pravesh-home-image.png" alt="" />
+      </div>
+    </section>
+
+    <!-- service section  -->
+
+    <section class="services" id="services">
+      <h2 class="heading2">Our <span>Services</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web development</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
+            quisquam assumenda eum saepe repellendus odit rem quo soluta aperiam
+            alias.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxs-paint"></i>
+          <h3>Graphic Design</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
+            quisquam assumenda eum saepe repellendus odit rem quo soluta aperiam
+            alias.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-bar-chart-alt"></i>
+          <h3>Digital Marketing</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
+            quisquam assumenda eum saepe repellendus odit rem quo soluta aperiam
+            alias.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!--  -------------------------------- portfolio section------------------------------------------------------------- -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading3">Latest <span>Project</span></h2>
+      <div class="portfolio-conttainer">
+        <div class="portfolio-box">
+          <img src="image/photo1.jpg" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Repudiandae, earum.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="image/photo2.jpg" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Repudiandae, earum.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="image/photo3.jpg" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Repudiandae, earum.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="image/photo4.jpg" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Repudiandae, earum.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="image/photo5.jpg" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Repudiandae, earum.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="image/photo6.jpg" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Repudiandae, earum.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  ----------------------------------------------skills section start----------------------------------------- -->
+    <section class="skills" id="skills">
+      <div class="max-width">
+        <h2 class="title">My <span>skills</span></h2>
+        <div class="skills-content">
+          <div class="column left">
+            <div class="text">My creative skills & experiences.</div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, ratione error est recusandae consequatur, iusto illum
+              deleniti quidem impedit, quos quaerat quis minima sequi.
+              Cupiditate recusandae laudantium esse, harum animi aspernatur.
+            </p>
+            <a href="#" class="btn">Read more</a>
+          </div>
+          <div class="column right">
+            <div class="bars">
+              <div class="info">
+                <span>HTML</span>
+                <span>100%</span>
+              </div>
+              <div class="line html"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>CSS</span>
+                <span>100%</span>
+              </div>
+              <div class="line css"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>JavaScript</span>
+                <span>80%</span>
+              </div>
+              <div class="line js"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>React</span>
+                <span>70%</span>
+              </div>
+              <div class="line php"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>Node js</span>
+                <span>70%</span>
+              </div>
+              <div class="line mysql"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------contact section design--------------------- -->
+    <section class="contact" id="contact">
+      <h2 class="heading4">Contact<span> Me!</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email address" />
+        </div>
+
+        <div class="input-box">
+          <input type="number" placeholder="Mobile number" />
+          <input type="text" placeholder="Email subject" />
+        </div>
+
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="30"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- ---------footer design----------- -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy 2023 by pravesh || All rights reserved</p>
+      </div>
+
+      <div class="footer-icontop">
+        <a href="#home"><i class='bx bxs-up-arrow-alt'></i></a>
+      </div>
+    </footer>
+
+    <!--  -------------scrolly reveal----------- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ------------typed js------------------ -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
